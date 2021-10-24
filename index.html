@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>беброчка</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body style="background-color:black;">
+	<script type="text/javascript">
+		function mshk(){
+			document.getElementById("bebra").innerHTML = "АААА МИШК ФРЕДИ!";
+			document.getElementById("bebra").style.color = "white";
+			document.getElementById("bebra").style.cursor = "default";
+			document.getElementById("mshkf").style.visibility = "visible";
+			var audio = new Audio('marsh.mp3');
+			audio.play();
+		}
+	</script>
+	<h1 style="text-align: center;color:blue;cursor:pointer;" onclick="mshk()" id="bebra">Внутри беброчка</h1>
+	<p style="text-align: center;visibility: hidden;" id="mshkf"><img src="mshk.jpg" style="width: 30%; height: 27%;"></p>
+</body>
+</html>
